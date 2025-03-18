@@ -6,11 +6,12 @@ import lombok.*;
     private String brand;
     private String model;
     private int year;
+    private String color;
 }
 public class Main {
     public static void main(String[] args) {
-        carWithLombok car1 = new carWithLombok("Toyota", "Corolla", 2021);
-        carWithLombok car2 = new carWithLombok("GLE", "Mercedes", 2023);
+        carWithLombok car1 = new carWithLombok("Toyota", "Corolla", 2021, "black");
+        carWithLombok car2 = new carWithLombok("GLE", "Mercedes", 2023, "white");
         System.out.println(car1);
         System.out.println(car2);
         System.out.println(car1.getBrand());
