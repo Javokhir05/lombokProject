@@ -1,6 +1,9 @@
 import lombok.*;
 @Data
 @AllArgsConstructor
+@Getter
+@Setter
+// there are more than these annotations that I didn't use
 
  class carWithLombok {
     private String brand;
