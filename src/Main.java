@@ -21,9 +21,8 @@ public class Main {
         int year = car1.getYear();
         car1.setYear(year + 1);
         System.out.println(car1.getYear());
-        System.out.println("car1.equals(car2): " + car1.equals(car2));
-        System.out.println("car1.hashCode(): " + car1.hashCode());
-        System.out.println("car2.hashCode(): " + car2.hashCode());
-        System.out.println("car1: " + car1);
+        System.out.println("Are these objects equal: " + car1.equals(car2));
+        System.out.println("The hashCode of this object is: " + car1.hashCode());
+        System.out.println("The hashCode of this object is:  " + car2.hashCode());
     }
 }
